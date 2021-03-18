@@ -10,5 +10,5 @@ def generate():
     for i in range(x):
         y = random.choice(a+b+c+d)
         list.append(y)
-        z = "".join(map(str,list)) #map fonksiyonu ile stringe çevirdik ve join ile aralarını boş bıraktık!
+        z = "".join(map(str,list))
     return z
